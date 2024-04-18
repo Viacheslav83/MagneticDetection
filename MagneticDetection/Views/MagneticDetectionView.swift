@@ -171,7 +171,7 @@ final class MagneticDetectionView: UIView {
             button.leading.constraint(equalTo: scrollView.leading, constant: 16),
             button.trailing.constraint(equalTo: scrollView.trailing, constant: -16),
             button.height.constraint(equalToConstant: 50),
-            button.bottom.constraint(equalTo: scrollView.bottom, constant: -16),
+            button.bottom.constraint(equalTo: scrollView.bottom, constant: -46),
         ])
         
         button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)

@@ -118,6 +118,10 @@ final class MainView: UIView {
                 v.width.constraint(equalTo: v.height)
             ])
         }
+        
+        NSLayoutConstraint.activate([
+            imageView.width.constraint(equalTo: scrollView.width)
+        ])
     }
     
     private func setup() {
@@ -146,7 +150,7 @@ final class MainView: UIView {
             vStack.top.constraint(equalTo: scanView.bottomAnchor, constant: 12),
             vStack.leading.constraint(equalTo: scrollView.leading, constant: 16),
             vStack.trailing.constraint(equalTo: scrollView.trailing, constant: -16),
-            vStack.bottom.constraint(equalTo: scrollView.bottom, constant: -16),
+            vStack.bottom.constraint(equalTo: scrollView.bottom, constant: -46),
         ])
         
         scanView.button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
