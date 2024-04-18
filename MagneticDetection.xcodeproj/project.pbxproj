@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D2427052BD12C4100114337 /* MagneticDetectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2427042BD12C4100114337 /* MagneticDetectionVC.swift */; };
+		0D2427072BD12C4E00114337 /* MagneticDetectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2427062BD12C4E00114337 /* MagneticDetectionView.swift */; };
+		0D2427092BD1341C00114337 /* ScanNetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2427082BD1341C00114337 /* ScanNetworkView.swift */; };
+		0D24270B2BD137E000114337 /* UIStackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D24270A2BD137E000114337 /* UIStackView+Extension.swift */; };
+		0D24270D2BD1389300114337 /* VerticalImageAndLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D24270C2BD1389300114337 /* VerticalImageAndLabelView.swift */; };
 		0D98ACC42BD11EA900393E78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D98ACC32BD11EA900393E78 /* AppDelegate.swift */; };
-		0D98ACC62BD11EA900393E78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D98ACC52BD11EA900393E78 /* SceneDelegate.swift */; };
-		0D98ACC82BD11EA900393E78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D98ACC72BD11EA900393E78 /* ViewController.swift */; };
-		0D98ACCB2BD11EA900393E78 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0D98ACCA2BD11EA900393E78 /* Base */; };
 		0D98ACCD2BD11EAB00393E78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D98ACCC2BD11EAB00393E78 /* Assets.xcassets */; };
 		0D98ACD02BD11EAB00393E78 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0D98ACCF2BD11EAB00393E78 /* Base */; };
+		0D98ACDD2BD1227500393E78 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D98ACDC2BD1227500393E78 /* UIView+Extension.swift */; };
+		0D98ACDF2BD1229600393E78 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D98ACDE2BD1229600393E78 /* UIFont+Extension.swift */; };
+		0D98ACE22BD122D600393E78 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D98ACE12BD122D600393E78 /* Roboto-Medium.ttf */; };
+		0D98ACE42BD1233500393E78 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D98ACE32BD1233500393E78 /* UIImage+Extension.swift */; };
+		0D98ACE62BD1234800393E78 /* ImageNameType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D98ACE52BD1234800393E78 /* ImageNameType.swift */; };
+		0D98ACE82BD123A300393E78 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D98ACE72BD123A300393E78 /* UIColor+Extension.swift */; };
+		0D98ACEA2BD1279B00393E78 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D98ACE92BD1279B00393E78 /* MainVC.swift */; };
+		0D98ACEC2BD1284200393E78 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D98ACEB2BD1284200393E78 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D2427042BD12C4100114337 /* MagneticDetectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagneticDetectionVC.swift; sourceTree = "<group>"; };
+		0D2427062BD12C4E00114337 /* MagneticDetectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagneticDetectionView.swift; sourceTree = "<group>"; };
+		0D2427082BD1341C00114337 /* ScanNetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanNetworkView.swift; sourceTree = "<group>"; };
+		0D24270A2BD137E000114337 /* UIStackView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension.swift"; sourceTree = "<group>"; };
+		0D24270C2BD1389300114337 /* VerticalImageAndLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalImageAndLabelView.swift; sourceTree = "<group>"; };
 		0D98ACC02BD11EA900393E78 /* MagneticDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagneticDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D98ACC32BD11EA900393E78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0D98ACC52BD11EA900393E78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0D98ACC72BD11EA900393E78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0D98ACCA2BD11EA900393E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D98ACCC2BD11EAB00393E78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D98ACCF2BD11EAB00393E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D98ACD12BD11EAB00393E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D98ACDC2BD1227500393E78 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		0D98ACDE2BD1229600393E78 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		0D98ACE12BD122D600393E78 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		0D98ACE32BD1233500393E78 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		0D98ACE52BD1234800393E78 /* ImageNameType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageNameType.swift; sourceTree = "<group>"; };
+		0D98ACE72BD123A300393E78 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		0D98ACE92BD1279B00393E78 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		0D98ACEB2BD1284200393E78 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +77,72 @@
 			isa = PBXGroup;
 			children = (
 				0D98ACC32BD11EA900393E78 /* AppDelegate.swift */,
-				0D98ACC52BD11EA900393E78 /* SceneDelegate.swift */,
-				0D98ACC72BD11EA900393E78 /* ViewController.swift */,
-				0D98ACC92BD11EA900393E78 /* Main.storyboard */,
-				0D98ACCC2BD11EAB00393E78 /* Assets.xcassets */,
-				0D98ACCE2BD11EAB00393E78 /* LaunchScreen.storyboard */,
 				0D98ACD12BD11EAB00393E78 /* Info.plist */,
+				0D98ACD92BD120E300393E78 /* Screens */,
+				0D98ACD82BD120DB00393E78 /* Views */,
+				0D98ACDB2BD121AD00393E78 /* Extensions */,
+				0D98ACD72BD120CC00393E78 /* Utilities */,
+				0D98ACDA2BD120F400393E78 /* SuportingFiles */,
 			);
 			path = MagneticDetection;
+			sourceTree = "<group>";
+		};
+		0D98ACD72BD120CC00393E78 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0D98ACE52BD1234800393E78 /* ImageNameType.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0D98ACD82BD120DB00393E78 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D98ACEB2BD1284200393E78 /* MainView.swift */,
+				0D2427062BD12C4E00114337 /* MagneticDetectionView.swift */,
+				0D2427082BD1341C00114337 /* ScanNetworkView.swift */,
+				0D24270C2BD1389300114337 /* VerticalImageAndLabelView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0D98ACD92BD120E300393E78 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				0D98ACE92BD1279B00393E78 /* MainVC.swift */,
+				0D2427042BD12C4100114337 /* MagneticDetectionVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		0D98ACDA2BD120F400393E78 /* SuportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0D98ACE02BD122B500393E78 /* Fonts */,
+				0D98ACCC2BD11EAB00393E78 /* Assets.xcassets */,
+				0D98ACCE2BD11EAB00393E78 /* LaunchScreen.storyboard */,
+			);
+			path = SuportingFiles;
+			sourceTree = "<group>";
+		};
+		0D98ACDB2BD121AD00393E78 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0D98ACDC2BD1227500393E78 /* UIView+Extension.swift */,
+				0D98ACDE2BD1229600393E78 /* UIFont+Extension.swift */,
+				0D98ACE32BD1233500393E78 /* UIImage+Extension.swift */,
+				0D98ACE72BD123A300393E78 /* UIColor+Extension.swift */,
+				0D24270A2BD137E000114337 /* UIStackView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0D98ACE02BD122B500393E78 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0D98ACE12BD122D600393E78 /* Roboto-Medium.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +205,7 @@
 			files = (
 				0D98ACCD2BD11EAB00393E78 /* Assets.xcassets in Resources */,
 				0D98ACD02BD11EAB00393E78 /* Base in Resources */,
-				0D98ACCB2BD11EA900393E78 /* Base in Resources */,
+				0D98ACE22BD122D600393E78 /* Roboto-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +216,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D98ACC82BD11EA900393E78 /* ViewController.swift in Sources */,
+				0D24270D2BD1389300114337 /* VerticalImageAndLabelView.swift in Sources */,
+				0D2427072BD12C4E00114337 /* MagneticDetectionView.swift in Sources */,
+				0D2427052BD12C4100114337 /* MagneticDetectionVC.swift in Sources */,
+				0D98ACE82BD123A300393E78 /* UIColor+Extension.swift in Sources */,
+				0D98ACEC2BD1284200393E78 /* MainView.swift in Sources */,
+				0D98ACE62BD1234800393E78 /* ImageNameType.swift in Sources */,
+				0D24270B2BD137E000114337 /* UIStackView+Extension.swift in Sources */,
+				0D98ACDD2BD1227500393E78 /* UIView+Extension.swift in Sources */,
 				0D98ACC42BD11EA900393E78 /* AppDelegate.swift in Sources */,
-				0D98ACC62BD11EA900393E78 /* SceneDelegate.swift in Sources */,
+				0D98ACE42BD1233500393E78 /* UIImage+Extension.swift in Sources */,
+				0D98ACDF2BD1229600393E78 /* UIFont+Extension.swift in Sources */,
+				0D98ACEA2BD1279B00393E78 /* MainVC.swift in Sources */,
+				0D2427092BD1341C00114337 /* ScanNetworkView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0D98ACC92BD11EA900393E78 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0D98ACCA2BD11EA900393E78 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0D98ACCE2BD11EAB00393E78 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +377,7 @@
 				INFOPLIST_FILE = MagneticDetection/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +405,7 @@
 				INFOPLIST_FILE = MagneticDetection/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
